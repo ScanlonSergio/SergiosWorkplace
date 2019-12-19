@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>order food</title>
+
+     <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO"
+        crossorigin="anonymous">
+
+    <!-- CSS Styling file -->
+    <link rel="stylesheet" type="text/css" href="food.css">
+    
+    <!-- Online Font Awesome CDN for icons-->
+    <link rel="stylesheet" type="text/css" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+    <!-- Online CDN for Google Fonts-->
+    <link href="https://fonts.googleapis.com/css?family=Rubik:400,700&display=swap" rel="stylesheet"> 
+    <script type="text/javascript" src="jQuery-3.4.1.min.js"></script> 
+
+</head>
+
+<body>
+  <section id="section01">
+    <nav id="mainNavbar" class="navbar navbar-dark navbar-expand-md py-0">
+         <a href="#" class="navbar-brand">FOOD.<span class="orange">LOGO</span></a>
+         <button class="navbar-toggler" data-toggle="collapse"  data-target="#navLinks" aria-label="Toggle Navigation">
+         <span class="navbar-toggler-icon"></span>
+         </button>
+          
+          <div class="nav-pills nav-fill justify-content-end collapse navbar-collapse" id="navLinks">
+              <ul class="navbar-nav align-items-right py-lg-5">
+                 <li class="nav-item">
+                     <a href="" class="nav-link">ABOUT</a>
+                 </li> 
+                 <li class="nav-item">
+                     <a href="" class="nav-link">OUR FOOD</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="" class="nav-link">PLANS</a>
+                 </li>
+                 <li class="nav-item">
+                     <a href="" class="nav-link btn-warning active">CONTACT US</a>
+                 </li>
+              </ul>
+          </div>
+    </nav>
+ 
+    <div class="container d-none d-sm-block ml-4 pl-0">
+        <div class="content">   
+           <h1 class="display-4">Have no time to prepare <span class="orange">food</span>?</h1>
+           <p class="lead">Choose one of our plans, enter delivery time and enjoy delicious food without leaving your home!!.</p>
+           <hr>
+           <a class="btn btn-warning btn-lg" href="#" role="button">Learn more</a>
+           <div id="icons" class="ml-3">
+             	<i class="fa fa-twitter" aria-hidden="true"></i>
+         	    <i class="fa fa-globe" aria-hidden="true"></i>
+         	    <i class="fa fa-instagram" aria-hidden="true"></i>
+           </div>
+        </div>
+    </div>
+    <div   id="scroll" class="d-none d-sm-block my-5 justify-content-center">
+    	 <a href="#section02"><span><i class="fa fa-hand-o-down" aria-hidden="true"></i></span>Scroll</a>
+    </div>
+
+  </section> 
+
+  <section id="section02" class="d-none d-md-block">
+   <div id="nextPage" class="row d-flex justify-content-between">	
+  	<div id="menu" class="col-md-12 col-lg-4">
+  		<h1>Available Options</h1>
+  		<hr>
+  		<ul id="available">
+		   <li><img src="pizz.jpg">Pizza<span class="price"> 5.99</span></li>
+		   
+		   <li><img src="burgerr.jpg">Burger<span class="price"> 2.99</span></li>
+           
+           <li><img src="pasta.jpg">Pasta<span class="price">4.99</span></li>
+           
+           <li><img src="sandwich.jpg">Sandwich<span class="price"> 1.99</span></li>
+        </ul>
+  	</div>
+  	
+  	<div id="buttons" class="col-md-12 col-lg-2 my-4">
+  		<button id="btn1" class="btn btn-md btn-warning" disabled>Add To Cart</button>
+  		<button id="btn2"class="btn btn-md btn-warning" disabled>Remove From Cart</button>
+    </div>
+  	   
+  	<div id="cart" class="col-md-12 col-lg-4">
+  		 <h1>Your Cart</h1>
+  		 <hr>
+  		 <ul id="added">
+  		 	
+  		 </ul>
+  		 <hr>
+  		 <ul  id="message">
+  		 	<li>You Cart is Empty...</li>
+  		 </ul>
+  		 
+	</div>
+   </div>
+  </section>
+
+
+
+
+<script type="text/javascript" src="food.js"></script>
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy"
+        crossorigin="anonymous"></script>
+</body>
+</html>

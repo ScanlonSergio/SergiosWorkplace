@@ -1,0 +1,119 @@
+body{
+      background: url(pizza.jpg) no-repeat center center fixed;
+      background-size:     cover;                  
+      background-repeat:   no-repeat;
+      font-family: 'Rubik', sans-serif;
+    }
+
+.container{
+	height: 15%;
+	width: 40%;
+	margin-top: 200px;
+	text-decoration: 
+	}    
+
+.orange{
+	color: orange;
+}
+
+#icons i{
+	margin-top: 10px;
+	width: 40px;
+}
+
+#mainNavbar{
+	font-weight: 400; 
+}
+
+#scroll {
+  margin: auto;
+  width: 20%; 
+  color: #d8aa22; 
+ }
+
+#buttons{
+	width: 10%;
+}
+
+#menu{
+	width: 35%;
+}
+
+#cart{
+	width: 35%;
+}
+
+ul{
+	list-style: none;                       /*to remove bullets on li*/
+	padding: 0;
+	margin: 0;
+	height: 10%;
+}
+
+#section01{
+    height: 100%;
+    width: 100%;
+}
+
+#section02{
+	margin-top: 77px;
+	height: 100%;
+	width: 100%;
+	background: gray;
+}
+
+#menu{
+	width: 30%;
+	border: 3px solid black;
+	background: #d8aa22;
+	height: 50%;
+}
+
+#cart{
+	width: 30%;
+	height: 50%;
+	float: right;
+    border: 3px solid black;
+	background: #d8aa22;
+}
+
+#buttons button{
+	width: 100%;
+	justify-content: center;
+    display: inline;
+    margin: 30px;
+}
+
+#menu li{
+      width: 100%;
+      margin:0 0 10px 0;
+}
+
+#cart li{
+      width: 100%;
+      margin:0 0 10px 0;
+}
+
+#nextPage{
+	width:95%;
+	float: left;
+	margin: 2.5%;
+}
+
+img{
+	height: 77px;
+	width: 77px;
+}
+
+.price{
+	float: right;
+	background: red;
+}
+
+.selected{
+	border:1px solid red;
+}
+
+.btnactive{
+	border: 1px solid black;
+}
